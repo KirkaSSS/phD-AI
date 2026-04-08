@@ -20,7 +20,7 @@
 This repository contains two machine learning models developed for predicting the crystal field splitting parameter Dq/B in octahedral Cr³⁺ complexes:
 
 - A **white-box model** based on gradient boosting (CatBoost) — interpretable, with feature importance
-- A **black-box model** based on a deep neural network (MLP) trained via backpropagation — higher complexity, no direct interpretability
+- A **black-box model** based on a deep neural network (MLP) trained via backpropagation — higher complexity, no direct interpretability (design choice)
 
 Both models follow an identical pipeline:
 - 10-fold cross-validation with automated random state optimization
